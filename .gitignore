@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+
+# GitHub Pages/Jekyll
+.nojekyll
+.well-known/
+
+# Backup or temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore everything except important files
+# (keep only specific folders)
+!README.md
+!index.html
+!assets/
+!images/
