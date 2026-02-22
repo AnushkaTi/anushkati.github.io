@@ -81,7 +81,7 @@
                 </div>
             </div>
             <div class="col-md-8 pt-5 about">
-                Hi! I'm a third-year PhD student in the <a
+                Hi! I'm a third-year PhD candidate in the <a
                     href="https://www.buffalo.edu/ai-data-science/academics/grad/cdse-phd.html" , target="_blank">Computational and Data-Enabled Sciences
                     </a> at <a href="https://www.buffalo.edu/" , target="_blank">The State
                     University of New York at Buffalo</a>, advised by Professor <a
@@ -90,11 +90,12 @@
                 on
                 Lifelong Learning, Transfer learning for large language models (LLMs), NLP, Machine Learning and Deep Learning. <br><br>
 
-                These days, I’m working on prompt-based continual learning, enabling language models 
-                to acquire new tasks incrementally through lightweight prompt updates instead of full
-                retraining. The goal is to retain prior knowledge, adapt rapidly, and prevent 
-                unbounded prompt growth.<br>
-                In my recent work, I introduced <a href="https://arxiv.org/pdf/2507.14725" , target="_blank">GRID</a>, which uses gradient signals to decide which prompts to reuse,
+                I work on methods that allow large AI models to continuously learn from new data without retraining from scratch. 
+                I design scalable techniques that control memory and computation as models evolve. These methods enable reliable operation of large language models over long time horizons by reusing and compressing previously learned information rather than repeatedly expanding the model.
+
+                More broadly, I am interested in building AI systems that remain stable, efficient, and adaptable in changing environments, a key requirement for real-world applications such as such as autonomous perception, medical decision-support tools, industrial inspection systems.
+
+                <!-- In my recent work, I introduced <a href="https://arxiv.org/pdf/2507.14725" , target="_blank">GRID</a>, which uses gradient signals to decide which prompts to reuse,
                 refine, or compress, and pairs this with task-aware decoding so the model consistently selects the 
                 right knowledge at inference. Feel free to check out the <a href="https://arxiv.org/pdf/2507.14725" ,
                 target="_blank">project</a>!
@@ -102,7 +103,7 @@
                 I’m further exploring frameworks that go beyond forgetting, enabling positive 
                 backward transfer, where learning new tasks can even improve performance on earlier 
                 ones, by refining previously learned knowledge so it not only remains stable but 
-                also benefits from new learning.
+                also benefits from new learning. -->
                 <br><br>
                 I am actively looking for summer 2026 internships in areas related to AI/ML. If my research interests align with your team, please don't hesitate to reach
                 out!<br><br>
@@ -112,8 +113,21 @@
                 <div class="py-2">
                     <p class="paper my-2 pl-2">
                         <!-- <span class="badge badge-sp"> ❄️ Recent </span><br> -->
-                        <span class="papertitle">GRID: Scalable Task-Agnostic Prompt-Based
-                            Continual Learning for Language Models
+                        <span class="papertitle">Turning Back Without Forgetting: Selective Backward Refinement for Parameter-Efficient Continual
+                            Learning
+
+                        </span><br>
+                        <span class="thisauthor">Anushka Tiwari</span>, Kaiyi Ji<br>
+                        <!-- <span class="conf">Under Review</span> <br> -->
+                        <span class="conf"><a class="confshort">Submitted</a> 
+                        </span><br>
+                    </p>
+                </div>                                
+                <div class="py-2">
+                    <p class="paper my-2 pl-2">
+                        <!-- <span class="badge badge-sp"> ❄️ Recent </span><br> -->
+                        <span class="papertitle">Prompt-Based Continual Learning with Task-Agnostic Inference: A
+                            Memory-Efficient Approach
 
                         </span><br>
                         <span class="thisauthor">Anushka Tiwari</span>, Sayantan Pal, Rohini Srihari, Kaiyi Ji<br>
